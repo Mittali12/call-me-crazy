@@ -57,7 +57,7 @@ const Menu = () => {
     };
 
     return (
-        <div className="flex text-white bg-black w-full" >
+        <div className="flex text-white bg-black w-full  border-white border-b-2 " >
             {/* Sidebar */}
             <div className="w-1/5 border-r-2 border-white text-white p-4 pl-5">
                 <h2 className="text-xl font-bold ">Filter by Category</h2>
@@ -85,7 +85,7 @@ const Menu = () => {
                     {menuData
                         .filter(item => filter === 'All' ? true : item.category === filter)
                         .map(item => (
-                            <div key={item.id} className="bg-white rounded-lg p-6 flex flex-col justify-center items-stretch">
+                            <div key={item.id} className="bg-white rounded-lg p-6 flex flex-col justify-center items-stretch ">
                                 <div>
                                     <img src={item.image} alt={item.name} className="rounded-lg max-h-[300px] w-auto h-40 max-w-[250px]" />
                                 </div>
@@ -117,6 +117,7 @@ const Menu = () => {
                                         </div>
                                         :
                                         <button onClick={() => addToCart(item)} className="bg-orange-500 text-white px-4 py-2 mt-4 rounded-md hover:bg-orange-600">Add to Cart</button>
+
 
                                 }
                             </div>

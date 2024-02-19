@@ -14,8 +14,9 @@ const DeliveryPage = () => {
         autoplaySpeed: 1000,
         cssEase: "linear"
     };
+
     return (
-        <div className="w-full flex justify-center  bg-[#ffba8176]">
+        <div className="w-full flex justify-center bg-black">
             <div className="w-[95%] slider-container">
                 <Slider {...settings}>
                     <div className="">

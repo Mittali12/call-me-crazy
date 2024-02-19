@@ -38,7 +38,9 @@ const Footer = () => {
                                 style={{ width: '30px', height: 'auto' }}
                                 priority
                             />
-                            <h3 className="text-2xl font-bold border-2 p-2 border-dashed rounded-xl">Call me Crazy</h3>
+                            <div className="shadow-md text-[#C7C7C7] border-dashed rounded-xl border-white border-y text-xl p-2 flex gap-2">
+                                <i>Call me Crazy </i>
+                            </div>
                         </div>
                     </div>
                     <div className='flex flex-col gap-2 justify-end'>

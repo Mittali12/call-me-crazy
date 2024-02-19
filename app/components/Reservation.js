@@ -46,7 +46,7 @@ const Reservation = () => {
 
     })
     return (
-        <div className="w-full overflow-hidden flex flex-col gap-10">
+        <div className="w-full overflow-hidden flex flex-col ">
             <p className="text-center text-2xl font-medium py-5">
                 We're already excited to welcome you at Bevri in Delhi
             </p>
