@@ -2,15 +2,19 @@ export const HeaderConfig = {
     navList: [
         {
             label: "home",
-            text: "Home"
+            text: "Home",
+            link: "/"
         },
         {
-            label: "About",
-            text: "About"
+            label: "Menu",
+            text: "Menu",
+            link: "/menu"
+
         },
         {
-            label: "Contact",
-            text: "Contact Us"
+            label: "Catering",
+            text: "Catering",
+            link: "/catering"
         }
     ]
 }

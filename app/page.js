@@ -7,16 +7,19 @@ import DeliveryPage from "./components/DeliveryPage";
 import Header from "./components/Header";
 import Introduction from "./components/Introduction";
 import MenuCateringPage from "./components/MenuCateringPage";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
-    <div className="">
-      <Header />
+    <div className="flex flex-col items-center gap-10">
+
       <Introduction />
       <MenuCateringPage />
       <BodyImage />
-      <AddressPage/>
-      <DeliveryPage/>
+      <DeliveryPage />
+      <AddressPage />
+
+      {/* <Footer /> */}
     </div>
   );
 }
