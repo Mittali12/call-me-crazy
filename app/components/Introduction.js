@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const Introduction = () => {
     return (
         <div className="w-full grid grid-cols-12 gap-5 justify-center p-10 bg-black py-10 align-middle overflow-hidden">
@@ -10,12 +12,12 @@ const Introduction = () => {
                 <p className="text-lg mt-5 text-[#C7C7C7] font-medium">
                     Call me Crazy is a Indian restaurant, famous for its hot gooey cheese bread khachapuri, juicy and flavorful dumplings khinkali, mouth-watering grilled meats and, of course, unique luscious Indian wines.
                 </p>
-                <p className="pt-10 text-lg mt-5 text-[#C7C7C7] font-medium">
+                <p className="py-10 text-lg mt-5 text-[#C7C7C7] font-medium">
                     Ready to try our satisfying Indian food and gorgeous wine? Find us in Mumbai or Delhi (reservations recommended) or order delivery.
                 </p>
-                <button className="mt-10 text-[#C7C7C7] hover:text-white  hover:bg-[#FF8000] hover:border-none cursor-pointer rounded-bl-xl rounded-t-xl px-6 py-3 border shadow-2xl border-white font-bold text-xl ">
+                <Link href="/menu" className=" text-[#C7C7C7] hover:text-white  hover:bg-[#FF8000] hover:border-none cursor-pointer rounded-bl-xl rounded-t-xl px-6 py-3 border shadow-2xl border-white font-bold text-xl ">
                     Menu
-                </button>
+                </Link>
             </div>
             <div className="col-span-3 ">
                 <img src="https://static.wixstatic.com/media/a560a5_b853391614784564812f6615dcee4971~mv2.png/v1/crop/x_0,y_36,w_2655,h_2656/fill/w_367,h_367,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/greens.png" className="w-[400px] h-[500px]" />

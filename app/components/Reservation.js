@@ -46,7 +46,7 @@ const Reservation = () => {
 
     })
     return (
-        <div className="w-full overflow-hidden flex flex-col ">
+        <div className="w-full overflow-hidden flex flex-col mb-4">
             <p className="text-center text-2xl font-medium py-5">
                 We're already excited to welcome you at Bevri in Delhi
             </p>
@@ -129,7 +129,7 @@ const Reservation = () => {
                 </div>
             </div>
             {tableData.length > 0 && tableData && (
-                <div className="w-full">
+                <div className="w-full mt-4">
                     <h3 className="text-xl font-semibold text-center">View Your Details</h3>
                     <table className="mt-3 table-auto border-white p-3 w-[98%] m-3 text-center bg-black text-[#C7C7C7] overflow-hidden rounded-xl border-2">
                         <thead className="text-xl">

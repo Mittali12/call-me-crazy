@@ -74,8 +74,8 @@ const Menu = () => {
                 <h1 className="text-4xl flex justify-between font-bold mb-8 text-center">
                     Our Menu
                     <span className='ml-auto relative'>
-                        <BsCartFill onClick={openModal} />
-                        <span className='absolute text-lg -top-2 -right-2 bg-orange-500 text-white px-2 rounded-full'>
+                        <BsCartFill onClick={openModal} className='cursor-pointer' />
+                        <span className=' absolute text-lg -top-2 -right-2 bg-orange-500 text-white px-2 rounded-full'>
                             {cart.length}
                         </span>
                     </span>
